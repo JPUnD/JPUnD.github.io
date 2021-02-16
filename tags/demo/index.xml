@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo on Academia</title>
-    <link>https://examplesite.org/tags/demo/</link>
-    <description>Recent content in Demo on Academia</description>
+    <title>Demo on José Ferreira</title>
+    <link>https://jpferreira.me/tags/demo/</link>
+    <description>Recent content in Demo on José Ferreira</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <copyright>José Ferreira</copyright>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jpferreira.me/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Artificial Intelligence</title>
-      <link>https://examplesite.org/project/artificial-intelligence/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <link>https://jpferreira.me/project/artificial-intelligence/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/project/artificial-intelligence/</guid>
-      <description></description>
+      <guid>https://jpferreira.me/project/artificial-intelligence/</guid>
+      <description>&lt;p&gt;right so now i have to write a bunch of garbage just to see if this actually adapts to column width which can be cool but again cellphones screw things up and this isnt long enough to make a line so here is more worthless stuff&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>https://examplesite.org/project/deep-learning/</link>
+      <link>https://jpferreira.me/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/project/deep-learning/</guid>
+      <guid>https://jpferreira.me/project/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>External Project</title>
-      <link>https://examplesite.org/project/external-project/</link>
+      <link>https://jpferreira.me/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/project/external-project/</guid>
+      <guid>https://jpferreira.me/project/external-project/</guid>
       <description></description>
     </item>
     

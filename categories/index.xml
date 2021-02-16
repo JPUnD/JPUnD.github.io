@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Academia</title>
-    <link>https://examplesite.org/categories/</link>
-    <description>Recent content in Categories on Academia</description>
+    <title>Categories on José Ferreira</title>
+    <link>https://jpferreira.me/categories/</link>
+    <description>Recent content in Categories on José Ferreira</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; {year}</copyright>
+    <copyright>José Ferreira</copyright>
     
-	    <atom:link href="https://examplesite.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jpferreira.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Academia</title>
-    <link>https://examplesite.org/post/</link>
-    <description>Recent content in Posts on Academia</description>
+    <title>Posts on José Ferreira</title>
+    <link>https://jpferreira.me/post/</link>
+    <description>Recent content in Posts on José Ferreira</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; {year}</copyright>
+    <copyright>José Ferreira</copyright>
     <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jpferreira.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Display Jupyter Notebooks with academia</title>
-      <link>https://examplesite.org/post/jupyter/</link>
+      <link>https://jpferreira.me/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/post/jupyter/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
+      <guid>https://jpferreira.me/post/jupyter/</guid>
+      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#abstract&#34;&gt;Abstract&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#stuff&#34;&gt;stuff&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#create-a-new-blog-post&#34;&gt;Create a new blog post&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h2 style=&#34;text-align:center&#34; id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;i can actually center stuff hooray&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+here&amp;rsquo;s math $$ \dfrac{1}{x} = y^2 $$&lt;/p&gt;
+&lt;p&gt;and here&amp;rsquo;s some inline math $ \dfrac{d}{dx}y(x) = e^x $&lt;/p&gt;
+&lt;h2 id=&#34;stuff&#34;&gt;stuff&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
 Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;./academia_0_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to academia!&amp;#34;&lt;/span&gt;)
@@ -27,8 +45,9 @@ Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/
 &lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
 &lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your academia website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
+&lt;h2 id=&#34;create-a-new-blog-post&#34;&gt;Create a new blog post&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34;&gt;as usual&lt;/a&gt;
+Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your academia website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
 hugo new  --kind post post/my-post
 cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
@@ -47,15 +66,23 @@ rm Untitled.md
 &lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
 &lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
 &lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with academia&lt;/a&gt;.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;bahhhhh &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
     <item>
-      <title>A Study of Snail Behavior</title>
-      <link>https://examplesite.org/post/snail/</link>
+      <title>A Study of Snail Behaviors</title>
+      <link>https://jpferreira.me/post/snail/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/post/snail/</guid>
+      <guid>https://jpferreira.me/post/snail/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
 &lt;ul&gt;
@@ -123,8 +150,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -136,8 +163,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -149,8 +176,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -162,8 +189,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -175,8 +202,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -188,8 +215,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -201,8 +228,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -214,8 +241,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/snail/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/snail/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/snail/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/snail/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -246,10 +273,10 @@ rm Untitled.md
     
     <item>
       <title>academia: the website builder for Hugo</title>
-      <link>https://examplesite.org/post/getting-started/</link>
+      <link>https://jpferreira.me/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/post/getting-started/</guid>
+      <guid>https://jpferreira.me/post/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
 &lt;ul&gt;
@@ -317,8 +344,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -330,8 +357,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -343,8 +370,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -356,8 +383,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -369,8 +396,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -382,8 +409,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -395,8 +422,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -408,8 +435,8 @@ rm Untitled.md
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://examplesite.org/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;https://examplesite.org/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://jpferreira.me/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
+  &lt;img src=&#34;https://jpferreira.me/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -435,6 +462,24 @@ rm Untitled.md
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>titulo</title>
+      <link>https://jpferreira.me/post/template/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpferreira.me/post/template/</guid>
+      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#yay&#34;&gt;yay&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h2 id=&#34;yay&#34;&gt;yay&lt;/h2&gt;
+&lt;p&gt;this is now markdown with mathjax&lt;/p&gt;
 </description>
     </item>
     
