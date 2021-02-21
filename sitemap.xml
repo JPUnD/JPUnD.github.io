@@ -39,7 +39,7 @@
   
   <url>
     <loc>https://jpferreira.me/authors/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -69,27 +69,32 @@
   
   <url>
     <loc>https://jpferreira.me/tags/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jpferreira.me/authors/admin/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jpferreira.me/post/jupyter/</loc>
+    <loc>https://jpferreira.me/post/filler/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jpferreira.me/post/standard-blog-post/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jpferreira.me/tags/human/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jpferreira.me/post/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -143,23 +148,13 @@
   </url>
   
   <url>
-    <loc>https://jpferreira.me/post/snail/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jpferreira.me/tags/academia/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jpferreira.me/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jpferreira.me/post/template/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <loc>https://jpferreira.me/post/gallery-example/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -184,6 +179,21 @@
   
   <url>
     <loc>https://jpferreira.me/publication/conference-paper/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jpferreira.me/authors/batata-xd/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jpferreira.me/authors/rabanete-yupi/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jpferreira.me/authors/yikes-couve/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   

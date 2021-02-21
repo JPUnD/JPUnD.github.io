@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yikes couve on José Ferreira</title>
+    <link>https://jpferreira.me/authors/yikes-couve/</link>
+    <description>Recent content in yikes couve on José Ferreira</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>José Ferreira</copyright>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://jpferreira.me/authors/yikes-couve/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An example conference paper - deixa me ver o que acontece quando esta porra eh do tamanho do universo, eh capaz de nao ficar mto bem em mobile, mas mobile eh mau anyways</title>
+      <link>https://jpferreira.me/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpferreira.me/publication/conference-paper/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
