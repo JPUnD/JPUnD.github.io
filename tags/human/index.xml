@@ -22,7 +22,26 @@
     </item>
     
     <item>
-      <title>A standard blog post</title>
+      <title>Filler Project</title>
+      <link>https://jpferreira.me/project/filler/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpferreira.me/project/filler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links Example</title>
+      <link>https://jpferreira.me/project/link-example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpferreira.me/project/link-example/</guid>
+      <description>&lt;p&gt;text&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Standard Blog Post</title>
       <link>https://jpferreira.me/post/standard-blog-post/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -67,15 +86,6 @@ $$ \dfrac{1}{x} = y^2 $$&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Skin Cancer AI</title>
-      <link>https://jpferreira.me/project/skin-cancer-ai/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpferreira.me/project/skin-cancer-ai/</guid>
-      <description></description>
     </item>
     
   </channel>

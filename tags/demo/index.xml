@@ -7,37 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>José Ferreira</copyright>
-    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jpferreira.me/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Artificial Intelligence</title>
-      <link>https://jpferreira.me/project/artificial-intelligence/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpferreira.me/project/artificial-intelligence/</guid>
-      <description>&lt;p&gt;right so now i have to write a bunch of garbage just to see if this actually adapts to column width which can be cool but again cellphones screw things up and this isnt long enough to make a line so here is more worthless stuff&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://jpferreira.me/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpferreira.me/project/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>External Project</title>
       <link>https://jpferreira.me/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jpferreira.me/project/external-project/</guid>
-      <description></description>
+      <description>&lt;p&gt;THIS&lt;/p&gt;
+&lt;p&gt;IS&lt;/p&gt;
+&lt;p&gt;TEXXTTTTTTTTTTTT&lt;/p&gt;
+</description>
     </item>
     
   </channel>
